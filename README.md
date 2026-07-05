@@ -1,27 +1,27 @@
-## Project Screenshots
+# Linux Incident Response Toolkit
 
-### Main Menu
-![Main Menu](screenshots/01_menu.png)
+A Bash-based Linux incident response toolkit that helps collect important system information for security investigations.
 
-### System Information
-![System Information](screenshots/02_system_information.png)
+## Features
 
-### Logged-in Users
-![Logged-in Users](screenshots/03_logged_in_users.png)
+- System Information
+- Logged-in Users
+- User & Group Information
+- Running Processes
+- Network Information
+- Disk & Memory Usage
+- File Permission Audit
+- Backup Important Files
+- Generate Incident Report
 
-### Running Processes
-![Running Processes](screenshots/04_running_processes.png)
+## Technologies Used
 
-### Network Information
-![Network Information](screenshots/05_network_information.png)
+- Bash
+- Linux
+- Ubuntu (WSL)
 
-### Incident Report Generated
-![Incident Report](screenshots/06_incident_report.png)
+## How to Run
 
----
-
-## Sample Output
-
-The repository also contains a sample generated incident report:
-
-- `report_20260705_1659.txt`
+```bash
+chmod +x incident_tool.sh
+./incident_tool.sh
