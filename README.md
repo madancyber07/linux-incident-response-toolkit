@@ -25,6 +25,7 @@ A Bash-based Linux incident response toolkit that helps collect important system
 ```bash
 chmod +x incident_tool.sh
 ./incident_tool.sh
+```
 
 ## Project Screenshots
 
